@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A477902C743FF00052DCDB /* MelaninMedDraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4778F2C743FF00052DCDB /* MelaninMedDraftApp.swift */; };
+		63A477922C743FF00052DCDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A477912C743FF00052DCDB /* ContentView.swift */; };
+		63A477962C743FF20052DCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A477952C743FF20052DCDB /* Assets.xcassets */; };
+		63A477992C743FF20052DCDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A477982C743FF20052DCDB /* Preview Assets.xcassets */; };
+		63A477A32C743FF20052DCDB /* MelaninMedDraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A477A22C743FF20052DCDB /* MelaninMedDraftTests.swift */; };
+		63A477AD2C743FF20052DCDB /* MelaninMedDraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A477AC2C743FF20052DCDB /* MelaninMedDraftUITests.swift */; };
+		63A477AF2C743FF20052DCDB /* MelaninMedDraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A477AE2C743FF20052DCDB /* MelaninMedDraftUITestsLaunchTests.swift */; };
+		63A477BC2C7440090052DCDB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A477BB2C7440090052DCDB /* SecondView.swift */; };
+		63A477BE2C7440150052DCDB /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A477BD2C7440150052DCDB /* ReadingView.swift */; };
+		63AE43EC2CA5A74400F119EA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE43EB2CA5A74400F119EA /* ProfileView.swift */; };
+		63AE43F42CA5AB4A00F119EA /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE43F32CA5AB4A00F119EA /* ChatView.swift */; };
+		63AE43F62CA5AD0300F119EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63AE43F52CA5AD0300F119EA /* GoogleService-Info.plist */; };
+		63AE43F82CA5D37500F119EA /* MessageOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE43F72CA5D37500F119EA /* MessageOwner.swift */; };
+		63AE43FB2CA5D4A600F119EA /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63AE43FA2CA5D4A600F119EA /* ChatGPTSwift */; };
+		63AE43FD2CA5D4A600F119EA /* SampleApp in Frameworks */ = {isa = PBXBuildFile; productRef = 63AE43FC2CA5D4A600F119EA /* SampleApp */; };
+		63AE43FF2CA5D4C200F119EA /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE43FE2CA5D4C200F119EA /* ChatMessage.swift */; };
+		63AE44022CA5D5C700F119EA /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE44012CA5D5C700F119EA /* ModelView.swift */; };
+		63D832EF2C8086AB007FC39C /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D832EE2C8086AB007FC39C /* Firebase.swift */; };
+		63D832F52C852DAA007FC39C /* MelaninMedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D832F42C852DAA007FC39C /* MelaninMedAssets.xcassets */; };
+		63D832F72C855298007FC39C /* Diagnoser.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 63D832F62C855298007FC39C /* Diagnoser.mlpackage */; };
+		63FAD0D62C80627F0073BA19 /* RiskClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 63FAD0D52C80627F0073BA19 /* RiskClassifier.mlpackage */; };
+		63FAD0DD2C8069590073BA19 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0DC2C8069590073BA19 /* FirebaseAnalytics */; };
+		63FAD0DF2C8069590073BA19 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0DE2C8069590073BA19 /* FirebaseAnalyticsOnDeviceConversion */; };
+		63FAD0E12C8069590073BA19 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0E02C8069590073BA19 /* FirebaseAppCheck */; };
+		63FAD0E32C8069590073BA19 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0E22C8069590073BA19 /* FirebaseAppDistribution-Beta */; };
+		63FAD0E62C80818C0073BA19 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0E52C80818C0073BA19 /* FirebaseFirestore */; };
+		63FAD0E82C80819E0073BA19 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0E72C80819E0073BA19 /* FirebaseAuthCombine-Community */; };
+		63FAD0EA2C8081C00073BA19 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 63FAD0E92C8081C00073BA19 /* FirebaseFirestoreCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A4779F2C743FF20052DCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A477842C743FF00052DCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A4778B2C743FF00052DCDB;
+			remoteInfo = MelaninMedDraft;
+		};
+		63A477A92C743FF20052DCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A477842C743FF00052DCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A4778B2C743FF00052DCDB;
+			remoteInfo = MelaninMedDraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636F4D8F2C8E2BC600637B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		63A4778C2C743FF00052DCDB /* MelaninMedDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelaninMedDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A4778F2C743FF00052DCDB /* MelaninMedDraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaninMedDraftApp.swift; sourceTree = "<group>"; };
+		63A477912C743FF00052DCDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63A477952C743FF20052DCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A477982C743FF20052DCDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63A4779E2C743FF20052DCDB /* MelaninMedDraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelaninMedDraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A477A22C743FF20052DCDB /* MelaninMedDraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaninMedDraftTests.swift; sourceTree = "<group>"; };
+		63A477A82C743FF20052DCDB /* MelaninMedDraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelaninMedDraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A477AC2C743FF20052DCDB /* MelaninMedDraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaninMedDraftUITests.swift; sourceTree = "<group>"; };
+		63A477AE2C743FF20052DCDB /* MelaninMedDraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaninMedDraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63A477BB2C7440090052DCDB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		63A477BD2C7440150052DCDB /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
+		63AE43EB2CA5A74400F119EA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		63AE43F32CA5AB4A00F119EA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		63AE43F52CA5AD0300F119EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63AE43F72CA5D37500F119EA /* MessageOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOwner.swift; sourceTree = "<group>"; };
+		63AE43FE2CA5D4C200F119EA /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		63AE44012CA5D5C700F119EA /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		63D832EE2C8086AB007FC39C /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		63D832F42C852DAA007FC39C /* MelaninMedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = MelaninMedAssets.xcassets; path = ../../../../../../../MelaninMedAssets.xcassets; sourceTree = "<group>"; };
+		63D832F62C855298007FC39C /* Diagnoser.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Diagnoser.mlpackage; sourceTree = "<group>"; };
+		63FAD0D52C80627F0073BA19 /* RiskClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = RiskClassifier.mlpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A477892C743FF00052DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FAD0DD2C8069590073BA19 /* FirebaseAnalytics in Frameworks */,
+				63FAD0E82C80819E0073BA19 /* FirebaseAuthCombine-Community in Frameworks */,
+				63FAD0E12C8069590073BA19 /* FirebaseAppCheck in Frameworks */,
+				63FAD0DF2C8069590073BA19 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				63AE43FB2CA5D4A600F119EA /* ChatGPTSwift in Frameworks */,
+				63FAD0E62C80818C0073BA19 /* FirebaseFirestore in Frameworks */,
+				63AE43FD2CA5D4A600F119EA /* SampleApp in Frameworks */,
+				63FAD0E32C8069590073BA19 /* FirebaseAppDistribution-Beta in Frameworks */,
+				63FAD0EA2C8081C00073BA19 /* FirebaseFirestoreCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A4779B2C743FF20052DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A477A52C743FF20052DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A477832C743FF00052DCDB = {
+			isa = PBXGroup;
+			children = (
+				63A4778E2C743FF00052DCDB /* MelaninMedDraft */,
+				63A477A12C743FF20052DCDB /* MelaninMedDraftTests */,
+				63A477AB2C743FF20052DCDB /* MelaninMedDraftUITests */,
+				63A4778D2C743FF00052DCDB /* Products */,
+				63FAD0E42C80818C0073BA19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63A4778D2C743FF00052DCDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A4778C2C743FF00052DCDB /* MelaninMedDraft.app */,
+				63A4779E2C743FF20052DCDB /* MelaninMedDraftTests.xctest */,
+				63A477A82C743FF20052DCDB /* MelaninMedDraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A4778E2C743FF00052DCDB /* MelaninMedDraft */ = {
+			isa = PBXGroup;
+			children = (
+				636F4D8F2C8E2BC600637B75 /* Info.plist */,
+				63AE43F52CA5AD0300F119EA /* GoogleService-Info.plist */,
+				63A4778F2C743FF00052DCDB /* MelaninMedDraftApp.swift */,
+				63FAD0D52C80627F0073BA19 /* RiskClassifier.mlpackage */,
+				63D832F62C855298007FC39C /* Diagnoser.mlpackage */,
+				63D832EE2C8086AB007FC39C /* Firebase.swift */,
+				63A477912C743FF00052DCDB /* ContentView.swift */,
+				63AE43F32CA5AB4A00F119EA /* ChatView.swift */,
+				63AE44002CA5D5B600F119EA /* ChatBot */,
+				63AE43EB2CA5A74400F119EA /* ProfileView.swift */,
+				63A477BB2C7440090052DCDB /* SecondView.swift */,
+				63A477BD2C7440150052DCDB /* ReadingView.swift */,
+				63A477952C743FF20052DCDB /* Assets.xcassets */,
+				63A477972C743FF20052DCDB /* Preview Content */,
+				63D832F42C852DAA007FC39C /* MelaninMedAssets.xcassets */,
+			);
+			path = MelaninMedDraft;
+			sourceTree = "<group>";
+		};
+		63A477972C743FF20052DCDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63A477982C743FF20052DCDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63A477A12C743FF20052DCDB /* MelaninMedDraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				63A477A22C743FF20052DCDB /* MelaninMedDraftTests.swift */,
+			);
+			path = MelaninMedDraftTests;
+			sourceTree = "<group>";
+		};
+		63A477AB2C743FF20052DCDB /* MelaninMedDraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63A477AC2C743FF20052DCDB /* MelaninMedDraftUITests.swift */,
+				63A477AE2C743FF20052DCDB /* MelaninMedDraftUITestsLaunchTests.swift */,
+			);
+			path = MelaninMedDraftUITests;
+			sourceTree = "<group>";
+		};
+		63AE44002CA5D5B600F119EA /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				63AE43F72CA5D37500F119EA /* MessageOwner.swift */,
+				63AE44012CA5D5C700F119EA /* ModelView.swift */,
+				63AE43FE2CA5D4C200F119EA /* ChatMessage.swift */,
+			);
+			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		63FAD0E42C80818C0073BA19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A4778B2C743FF00052DCDB /* MelaninMedDraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A477B22C743FF20052DCDB /* Build configuration list for PBXNativeTarget "MelaninMedDraft" */;
+			buildPhases = (
+				63A477882C743FF00052DCDB /* Sources */,
+				63A477892C743FF00052DCDB /* Frameworks */,
+				63A4778A2C743FF00052DCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MelaninMedDraft;
+			packageProductDependencies = (
+				63FAD0DC2C8069590073BA19 /* FirebaseAnalytics */,
+				63FAD0DE2C8069590073BA19 /* FirebaseAnalyticsOnDeviceConversion */,
+				63FAD0E02C8069590073BA19 /* FirebaseAppCheck */,
+				63FAD0E22C8069590073BA19 /* FirebaseAppDistribution-Beta */,
+				63FAD0E52C80818C0073BA19 /* FirebaseFirestore */,
+				63FAD0E72C80819E0073BA19 /* FirebaseAuthCombine-Community */,
+				63FAD0E92C8081C00073BA19 /* FirebaseFirestoreCombine-Community */,
+				63AE43FA2CA5D4A600F119EA /* ChatGPTSwift */,
+				63AE43FC2CA5D4A600F119EA /* SampleApp */,
+			);
+			productName = MelaninMedDraft;
+			productReference = 63A4778C2C743FF00052DCDB /* MelaninMedDraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A4779D2C743FF20052DCDB /* MelaninMedDraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A477B52C743FF20052DCDB /* Build configuration list for PBXNativeTarget "MelaninMedDraftTests" */;
+			buildPhases = (
+				63A4779A2C743FF20052DCDB /* Sources */,
+				63A4779B2C743FF20052DCDB /* Frameworks */,
+				63A4779C2C743FF20052DCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A477A02C743FF20052DCDB /* PBXTargetDependency */,
+			);
+			name = MelaninMedDraftTests;
+			productName = MelaninMedDraftTests;
+			productReference = 63A4779E2C743FF20052DCDB /* MelaninMedDraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63A477A72C743FF20052DCDB /* MelaninMedDraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A477B82C743FF20052DCDB /* Build configuration list for PBXNativeTarget "MelaninMedDraftUITests" */;
+			buildPhases = (
+				63A477A42C743FF20052DCDB /* Sources */,
+				63A477A52C743FF20052DCDB /* Frameworks */,
+				63A477A62C743FF20052DCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A477AA2C743FF20052DCDB /* PBXTargetDependency */,
+			);
+			name = MelaninMedDraftUITests;
+			productName = MelaninMedDraftUITests;
+			productReference = 63A477A82C743FF20052DCDB /* MelaninMedDraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A477842C743FF00052DCDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					63A4778B2C743FF00052DCDB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					63A4779D2C743FF20052DCDB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 63A4778B2C743FF00052DCDB;
+					};
+					63A477A72C743FF20052DCDB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 63A4778B2C743FF00052DCDB;
+					};
+				};
+			};
+			buildConfigurationList = 63A477872C743FF00052DCDB /* Build configuration list for PBXProject "MelaninMedDraft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A477832C743FF00052DCDB;
+			packageReferences = (
+				63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				63AE43F92CA5D4A600F119EA /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = 63A4778D2C743FF00052DCDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A4778B2C743FF00052DCDB /* MelaninMedDraft */,
+				63A4779D2C743FF20052DCDB /* MelaninMedDraftTests */,
+				63A477A72C743FF20052DCDB /* MelaninMedDraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A4778A2C743FF00052DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A477992C743FF20052DCDB /* Preview Assets.xcassets in Resources */,
+				63A477962C743FF20052DCDB /* Assets.xcassets in Resources */,
+				63AE43F62CA5AD0300F119EA /* GoogleService-Info.plist in Resources */,
+				63D832F52C852DAA007FC39C /* MelaninMedAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A4779C2C743FF20052DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A477A62C743FF20052DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A477882C743FF00052DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AE43EC2CA5A74400F119EA /* ProfileView.swift in Sources */,
+				63FAD0D62C80627F0073BA19 /* RiskClassifier.mlpackage in Sources */,
+				63D832EF2C8086AB007FC39C /* Firebase.swift in Sources */,
+				63A477922C743FF00052DCDB /* ContentView.swift in Sources */,
+				63AE43F42CA5AB4A00F119EA /* ChatView.swift in Sources */,
+				63AE43FF2CA5D4C200F119EA /* ChatMessage.swift in Sources */,
+				63AE44022CA5D5C700F119EA /* ModelView.swift in Sources */,
+				63A477BC2C7440090052DCDB /* SecondView.swift in Sources */,
+				63D832F72C855298007FC39C /* Diagnoser.mlpackage in Sources */,
+				63AE43F82CA5D37500F119EA /* MessageOwner.swift in Sources */,
+				63A477902C743FF00052DCDB /* MelaninMedDraftApp.swift in Sources */,
+				63A477BE2C7440150052DCDB /* ReadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A4779A2C743FF20052DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A477A32C743FF20052DCDB /* MelaninMedDraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A477A42C743FF20052DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A477AF2C743FF20052DCDB /* MelaninMedDraftUITestsLaunchTests.swift in Sources */,
+				63A477AD2C743FF20052DCDB /* MelaninMedDraftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A477A02C743FF20052DCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A4778B2C743FF00052DCDB /* MelaninMedDraft */;
+			targetProxy = 63A4779F2C743FF20052DCDB /* PBXContainerItemProxy */;
+		};
+		63A477AA2C743FF20052DCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A4778B2C743FF00052DCDB /* MelaninMedDraft */;
+			targetProxy = 63A477A92C743FF20052DCDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63A477B02C743FF20052DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A477B12C743FF20052DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A477B32C743FF20052DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MelaninMedDraft/Preview Content\"";
+				DEVELOPMENT_TEAM = N3MAJ9M2R8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MelaninMedDraft/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires the camera to take picture of skin anomalies.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AarAmm.MelaninMedDraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63A477B42C743FF20052DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MelaninMedDraft/Preview Content\"";
+				DEVELOPMENT_TEAM = N3MAJ9M2R8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MelaninMedDraft/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires the camera to take picture of skin anomalies.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AarAmm.MelaninMedDraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63A477B62C743FF20052DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3MAJ9M2R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AarAmm.MelaninMedDraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelaninMedDraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MelaninMedDraft";
+			};
+			name = Debug;
+		};
+		63A477B72C743FF20052DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3MAJ9M2R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AarAmm.MelaninMedDraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelaninMedDraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MelaninMedDraft";
+			};
+			name = Release;
+		};
+		63A477B92C743FF20052DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3MAJ9M2R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AarAmm.MelaninMedDraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelaninMedDraft;
+			};
+			name = Debug;
+		};
+		63A477BA2C743FF20052DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3MAJ9M2R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AarAmm.MelaninMedDraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelaninMedDraft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A477872C743FF00052DCDB /* Build configuration list for PBXProject "MelaninMedDraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A477B02C743FF20052DCDB /* Debug */,
+				63A477B12C743FF20052DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A477B22C743FF20052DCDB /* Build configuration list for PBXNativeTarget "MelaninMedDraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A477B32C743FF20052DCDB /* Debug */,
+				63A477B42C743FF20052DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A477B52C743FF20052DCDB /* Build configuration list for PBXNativeTarget "MelaninMedDraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A477B62C743FF20052DCDB /* Debug */,
+				63A477B72C743FF20052DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A477B82C743FF20052DCDB /* Build configuration list for PBXNativeTarget "MelaninMedDraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A477B92C743FF20052DCDB /* Debug */,
+				63A477BA2C743FF20052DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63AE43F92CA5D4A600F119EA /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+		63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63AE43FA2CA5D4A600F119EA /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63AE43F92CA5D4A600F119EA /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+		63AE43FC2CA5D4A600F119EA /* SampleApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63AE43F92CA5D4A600F119EA /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = SampleApp;
+		};
+		63FAD0DC2C8069590073BA19 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		63FAD0DE2C8069590073BA19 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		63FAD0E02C8069590073BA19 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		63FAD0E22C8069590073BA19 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		63FAD0E52C80818C0073BA19 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		63FAD0E72C80819E0073BA19 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		63FAD0E92C8081C00073BA19 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63FAD0DB2C8069590073BA19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63A477842C743FF00052DCDB /* Project object */;
+}
